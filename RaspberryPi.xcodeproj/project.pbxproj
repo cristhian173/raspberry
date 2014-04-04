@@ -28,6 +28,14 @@
 		0CF4356418EE7F45004022F0 /* RaspberryPi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RaspberryPi; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF4356718EE7F45004022F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0CF4356918EE7F45004022F0 /* RaspberryPi.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RaspberryPi.1; sourceTree = "<group>"; };
+		0CF4357118EE7F63004022F0 /* linux_file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linux_file.h; sourceTree = "<group>"; };
+		0CF4357218EE7F63004022F0 /* linux_gpio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linux_gpio.h; sourceTree = "<group>"; };
+		0CF4357318EE7F63004022F0 /* linux_gpio_explorer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linux_gpio_explorer.h; sourceTree = "<group>"; };
+		0CF4357418EE7F63004022F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0CF4357518EE7F63004022F0 /* ultrasonic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ultrasonic.cpp; sourceTree = "<group>"; };
+		0CF4357618EE7F63004022F0 /* ultrasonic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ultrasonic.h; sourceTree = "<group>"; };
+		0CF4357818EE7F6D004022F0 /* blink.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blink.c; sourceTree = "<group>"; };
+		0CF4357918EE7F6D004022F0 /* pir.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pir.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +68,34 @@
 		0CF4356618EE7F45004022F0 /* RaspberryPi */ = {
 			isa = PBXGroup;
 			children = (
+				0CF4357718EE7F6D004022F0 /* WiringPi */,
+				0CF4357018EE7F63004022F0 /* linux_library */,
 				0CF4356718EE7F45004022F0 /* main.cpp */,
 				0CF4356918EE7F45004022F0 /* RaspberryPi.1 */,
 			);
 			path = RaspberryPi;
+			sourceTree = "<group>";
+		};
+		0CF4357018EE7F63004022F0 /* linux_library */ = {
+			isa = PBXGroup;
+			children = (
+				0CF4357118EE7F63004022F0 /* linux_file.h */,
+				0CF4357218EE7F63004022F0 /* linux_gpio.h */,
+				0CF4357318EE7F63004022F0 /* linux_gpio_explorer.h */,
+				0CF4357418EE7F63004022F0 /* main.cpp */,
+				0CF4357518EE7F63004022F0 /* ultrasonic.cpp */,
+				0CF4357618EE7F63004022F0 /* ultrasonic.h */,
+			);
+			path = linux_library;
+			sourceTree = "<group>";
+		};
+		0CF4357718EE7F6D004022F0 /* WiringPi */ = {
+			isa = PBXGroup;
+			children = (
+				0CF4357818EE7F6D004022F0 /* blink.c */,
+				0CF4357918EE7F6D004022F0 /* pir.c */,
+			);
+			path = WiringPi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
