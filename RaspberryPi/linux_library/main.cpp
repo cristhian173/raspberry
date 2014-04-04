@@ -4,18 +4,32 @@
 #include <fcntl.h>
 #include <sys/time.h>
 #include <time.h>
+#include "blink.h"
 
-#define NULL 0
+//#define NULL 0
 
-#include "ultrasonic.h"
+//#include "ultrasonic.h"
+using namespace std;
+
 
 int main(int argc, char *argv[])
 {
+    
+    Blink* bl=new Blink();
+    
+    
+    bl->startToBlink(1000);
+    
+
+
+    
 	bool on = true;
-	ultrasonic us(332);
-	for (;;)
-	{
-		sleep(1);
-		us.GetDistanceInInch();
-	}
+//	ultrasonic us(332);
+//	for (;;)
+//	{
+//		sleep(1);
+//		us.GetDistanceInInch();
+//	}
+    
+    
 }

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0CF4356818EE7F45004022F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4356718EE7F45004022F0 /* main.cpp */; };
 		0CF4356A18EE7F45004022F0 /* RaspberryPi.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CF4356918EE7F45004022F0 /* RaspberryPi.1 */; };
+		0CF4357C18EE9CC5004022F0 /* blink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4357A18EE9CC5004022F0 /* blink.cpp */; };
+		0CF4357D18EEA566004022F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4357418EE7F63004022F0 /* main.cpp */; };
+		0CF4357E18EEA56A004022F0 /* ultrasonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4357518EE7F63004022F0 /* ultrasonic.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +39,8 @@
 		0CF4357618EE7F63004022F0 /* ultrasonic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ultrasonic.h; sourceTree = "<group>"; };
 		0CF4357818EE7F6D004022F0 /* blink.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blink.c; sourceTree = "<group>"; };
 		0CF4357918EE7F6D004022F0 /* pir.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pir.c; sourceTree = "<group>"; };
+		0CF4357A18EE9CC5004022F0 /* blink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blink.cpp; sourceTree = "<group>"; };
+		0CF4357B18EE9CC5004022F0 /* blink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blink.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				0CF4357418EE7F63004022F0 /* main.cpp */,
 				0CF4357518EE7F63004022F0 /* ultrasonic.cpp */,
 				0CF4357618EE7F63004022F0 /* ultrasonic.h */,
+				0CF4357A18EE9CC5004022F0 /* blink.cpp */,
+				0CF4357B18EE9CC5004022F0 /* blink.h */,
 			);
 			path = linux_library;
 			sourceTree = "<group>";
@@ -149,7 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF4357C18EE9CC5004022F0 /* blink.cpp in Sources */,
 				0CF4356818EE7F45004022F0 /* main.cpp in Sources */,
+				0CF4357D18EEA566004022F0 /* main.cpp in Sources */,
+				0CF4357E18EEA56A004022F0 /* ultrasonic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
