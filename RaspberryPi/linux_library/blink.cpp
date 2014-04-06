@@ -37,14 +37,14 @@ void Blink::startToBlink(int width){
     
 }
 
-void Blink::startToBlink(int width, int height){
+void Blink::startToBlink(int oneWidth, int zeroWidth){
 
     while (1) {
         outputPin->SetValue(true);
         //        delay(width);
-        sleep(width);
+        sleep(oneWidth);
         outputPin->SetValue(false);
-        sleep(height);
+        sleep(zeroWidth);
     }
     
     

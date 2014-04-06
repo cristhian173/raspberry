@@ -9,7 +9,7 @@
 //#define NULL 0
 
 //#include "ultrasonic.h"
-using namespace std;
+//using namespace std;
 
 
 int main(int argc, char *argv[])
@@ -17,13 +17,18 @@ int main(int argc, char *argv[])
     
     Blink* bl=new Blink();
     
+//    int d = 0;
+    
+//    scanf("&d",d);
+    
+//    printf("d=%d",d);
     
     bl->startToBlink(1000);
     
 
 
     
-	bool on = true;
+//	bool on = true;
 //	ultrasonic us(332);
 //	for (;;)
 //	{

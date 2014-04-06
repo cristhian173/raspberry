@@ -27,6 +27,7 @@ public:
     Blink();
     ~Blink();
     void startToBlink(int width);//width is millisecond
-    void startToBlink(int width, int height); //height, width both is in milliseconds
+    void startToBlink(int onewidth, int zerowidth); //height, width both is in milliseconds
+//if else switch do do while for
 
-};
+ };

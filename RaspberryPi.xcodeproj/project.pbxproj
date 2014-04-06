@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C270F6018F1A359006FFE02 /* arduPi_template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F5D18F1A359006FFE02 /* arduPi_template.cpp */; };
+		0C270F6118F1A359006FFE02 /* arduPi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F5E18F1A359006FFE02 /* arduPi.cpp */; };
+		0C270F6318F1A3AD006FFE02 /* voicecall.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F6218F1A3AD006FFE02 /* voicecall.c */; };
+		0C270F6518F1A3EA006FFE02 /* receivecall.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F6418F1A3EA006FFE02 /* receivecall.c */; };
+		0C270F6718F1A413006FFE02 /* sendsms.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F6618F1A413006FFE02 /* sendsms.c */; };
+		0C270F6918F1A43D006FFE02 /* receivesms.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F6818F1A43D006FFE02 /* receivesms.c */; };
+		0C270F6B18F1A510006FFE02 /* tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F6A18F1A510006FFE02 /* tcp.c */; };
+		0C270F6D18F1A51D006FFE02 /* udp.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F6C18F1A51D006FFE02 /* udp.c */; };
+		0C270F6F18F1A56C006FFE02 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F6E18F1A56C006FFE02 /* http.c */; };
+		0C270F7118F1A598006FFE02 /* gps.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F7018F1A598006FFE02 /* gps.c */; };
 		0CF4356818EE7F45004022F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4356718EE7F45004022F0 /* main.cpp */; };
 		0CF4356A18EE7F45004022F0 /* RaspberryPi.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CF4356918EE7F45004022F0 /* RaspberryPi.1 */; };
 		0CF4357C18EE9CC5004022F0 /* blink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4357A18EE9CC5004022F0 /* blink.cpp */; };
@@ -28,6 +38,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C270F5D18F1A359006FFE02 /* arduPi_template.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = arduPi_template.cpp; sourceTree = "<group>"; };
+		0C270F5E18F1A359006FFE02 /* arduPi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = arduPi.cpp; sourceTree = "<group>"; };
+		0C270F5F18F1A359006FFE02 /* arduPi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arduPi.h; sourceTree = "<group>"; };
+		0C270F6218F1A3AD006FFE02 /* voicecall.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = voicecall.c; sourceTree = "<group>"; };
+		0C270F6418F1A3EA006FFE02 /* receivecall.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = receivecall.c; sourceTree = "<group>"; };
+		0C270F6618F1A413006FFE02 /* sendsms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sendsms.c; sourceTree = "<group>"; };
+		0C270F6818F1A43D006FFE02 /* receivesms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = receivesms.c; sourceTree = "<group>"; };
+		0C270F6A18F1A510006FFE02 /* tcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tcp.c; sourceTree = "<group>"; };
+		0C270F6C18F1A51D006FFE02 /* udp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = udp.c; sourceTree = "<group>"; };
+		0C270F6E18F1A56C006FFE02 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http.c; sourceTree = "<group>"; };
+		0C270F7018F1A598006FFE02 /* gps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gps.c; sourceTree = "<group>"; };
 		0CF4356418EE7F45004022F0 /* RaspberryPi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RaspberryPi; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF4356718EE7F45004022F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0CF4356918EE7F45004022F0 /* RaspberryPi.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RaspberryPi.1; sourceTree = "<group>"; };
@@ -54,6 +75,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C270F5C18F1A331006FFE02 /* gsm_gps */ = {
+			isa = PBXGroup;
+			children = (
+				0C270F5D18F1A359006FFE02 /* arduPi_template.cpp */,
+				0C270F5E18F1A359006FFE02 /* arduPi.cpp */,
+				0C270F5F18F1A359006FFE02 /* arduPi.h */,
+				0C270F6218F1A3AD006FFE02 /* voicecall.c */,
+				0C270F6418F1A3EA006FFE02 /* receivecall.c */,
+				0C270F6618F1A413006FFE02 /* sendsms.c */,
+				0C270F6818F1A43D006FFE02 /* receivesms.c */,
+				0C270F6A18F1A510006FFE02 /* tcp.c */,
+				0C270F6C18F1A51D006FFE02 /* udp.c */,
+				0C270F6E18F1A56C006FFE02 /* http.c */,
+				0C270F7018F1A598006FFE02 /* gps.c */,
+			);
+			name = gsm_gps;
+			sourceTree = "<group>";
+		};
 		0CF4355B18EE7F45004022F0 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +112,7 @@
 		0CF4356618EE7F45004022F0 /* RaspberryPi */ = {
 			isa = PBXGroup;
 			children = (
+				0C270F5C18F1A331006FFE02 /* gsm_gps */,
 				0CF4357718EE7F6D004022F0 /* WiringPi */,
 				0CF4357018EE7F63004022F0 /* linux_library */,
 				0CF4356718EE7F45004022F0 /* main.cpp */,
@@ -156,10 +196,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C270F7118F1A598006FFE02 /* gps.c in Sources */,
+				0C270F6F18F1A56C006FFE02 /* http.c in Sources */,
+				0C270F6B18F1A510006FFE02 /* tcp.c in Sources */,
+				0C270F6118F1A359006FFE02 /* arduPi.cpp in Sources */,
+				0C270F6718F1A413006FFE02 /* sendsms.c in Sources */,
+				0C270F6D18F1A51D006FFE02 /* udp.c in Sources */,
 				0CF4357C18EE9CC5004022F0 /* blink.cpp in Sources */,
+				0C270F6018F1A359006FFE02 /* arduPi_template.cpp in Sources */,
 				0CF4356818EE7F45004022F0 /* main.cpp in Sources */,
 				0CF4357D18EEA566004022F0 /* main.cpp in Sources */,
+				0C270F6518F1A3EA006FFE02 /* receivecall.c in Sources */,
+				0C270F6918F1A43D006FFE02 /* receivesms.c in Sources */,
 				0CF4357E18EEA56A004022F0 /* ultrasonic.cpp in Sources */,
+				0C270F6318F1A3AD006FFE02 /* voicecall.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +317,7 @@
 				0CF4356F18EE7F45004022F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
