@@ -17,6 +17,8 @@
 		0C270F6D18F1A51D006FFE02 /* udp.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F6C18F1A51D006FFE02 /* udp.c */; };
 		0C270F6F18F1A56C006FFE02 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F6E18F1A56C006FFE02 /* http.c */; };
 		0C270F7118F1A598006FFE02 /* gps.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F7018F1A598006FFE02 /* gps.c */; };
+		0C270F7618F1A90C006FFE02 /* pir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F7418F1A90C006FFE02 /* pir.cpp */; };
+		0C270F7918F1AAEC006FFE02 /* ultrasonic_sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F7718F1AAEC006FFE02 /* ultrasonic_sound.cpp */; };
 		0CF4356818EE7F45004022F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4356718EE7F45004022F0 /* main.cpp */; };
 		0CF4356A18EE7F45004022F0 /* RaspberryPi.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CF4356918EE7F45004022F0 /* RaspberryPi.1 */; };
 		0CF4357C18EE9CC5004022F0 /* blink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4357A18EE9CC5004022F0 /* blink.cpp */; };
@@ -49,6 +51,10 @@
 		0C270F6C18F1A51D006FFE02 /* udp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = udp.c; sourceTree = "<group>"; };
 		0C270F6E18F1A56C006FFE02 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http.c; sourceTree = "<group>"; };
 		0C270F7018F1A598006FFE02 /* gps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gps.c; sourceTree = "<group>"; };
+		0C270F7418F1A90C006FFE02 /* pir.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pir.cpp; sourceTree = "<group>"; };
+		0C270F7518F1A90C006FFE02 /* pir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pir.h; sourceTree = "<group>"; };
+		0C270F7718F1AAEC006FFE02 /* ultrasonic_sound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ultrasonic_sound.cpp; sourceTree = "<group>"; };
+		0C270F7818F1AAEC006FFE02 /* ultrasonic_sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ultrasonic_sound.h; sourceTree = "<group>"; };
 		0CF4356418EE7F45004022F0 /* RaspberryPi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RaspberryPi; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF4356718EE7F45004022F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0CF4356918EE7F45004022F0 /* RaspberryPi.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RaspberryPi.1; sourceTree = "<group>"; };
@@ -132,6 +138,10 @@
 				0CF4357618EE7F63004022F0 /* ultrasonic.h */,
 				0CF4357A18EE9CC5004022F0 /* blink.cpp */,
 				0CF4357B18EE9CC5004022F0 /* blink.h */,
+				0C270F7418F1A90C006FFE02 /* pir.cpp */,
+				0C270F7518F1A90C006FFE02 /* pir.h */,
+				0C270F7718F1AAEC006FFE02 /* ultrasonic_sound.cpp */,
+				0C270F7818F1AAEC006FFE02 /* ultrasonic_sound.h */,
 			);
 			path = linux_library;
 			sourceTree = "<group>";
@@ -197,8 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C270F7118F1A598006FFE02 /* gps.c in Sources */,
+				0C270F7918F1AAEC006FFE02 /* ultrasonic_sound.cpp in Sources */,
 				0C270F6F18F1A56C006FFE02 /* http.c in Sources */,
 				0C270F6B18F1A510006FFE02 /* tcp.c in Sources */,
+				0C270F7618F1A90C006FFE02 /* pir.cpp in Sources */,
 				0C270F6118F1A359006FFE02 /* arduPi.cpp in Sources */,
 				0C270F6718F1A413006FFE02 /* sendsms.c in Sources */,
 				0C270F6D18F1A51D006FFE02 /* udp.c in Sources */,

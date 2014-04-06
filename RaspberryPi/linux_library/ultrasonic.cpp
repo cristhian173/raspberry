@@ -23,6 +23,7 @@ ultrasonic::~ultrasonic()
 }
 
 void ultrasonic::InitializePins(){
+    
 	_outputPin = new LinuxGPIO(17);
 	_outputPin->SetDirection(true);
 
