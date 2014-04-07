@@ -6,13 +6,13 @@
 #include <stdio.h>
 #include <fcntl.h>
 
-#include "linux_gpio_explorer.h"
+#include "raspberry_gpio_explorer.h"
 
-class LinuxGPIO : public LinuxGPIOExporter
+class RaspberryGPIO : public RaspberryGPIOExporter
 {
 public:
-	LinuxGPIO(int number)
-		: LinuxGPIOExporter(number)
+	RaspberryGPIO(int number)
+		: RaspberryGPIOExporter(number)
 	{
 	}
 

@@ -11,10 +11,10 @@
 
 #include <iostream>
 
-#include "linux_gpio.h"
+#include "raspberry_gpio.h"
 
 class Pir{
-    LinuxGPIO *inputPin;
+    RaspberryGPIO *inputPin;
     bool stopSearchingMovement;
     bool isObjectMovement;
     

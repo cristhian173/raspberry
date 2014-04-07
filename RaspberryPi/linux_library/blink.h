@@ -13,12 +13,12 @@
 
 #endif /* defined(__RaspberryPi__blink__) */
 
-#include "linux_gpio.h"
+#include "raspberry_gpio.h"
 
  class Blink{
 
-    LinuxGPIO* outputPin;
-    LinuxGPIO* inputPin;
+    RaspberryGPIO* outputPin;
+    RaspberryGPIO* inputPin;
     
    void initializePins();
    

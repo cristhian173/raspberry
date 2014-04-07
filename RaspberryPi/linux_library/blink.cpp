@@ -22,7 +22,7 @@ Blink::~Blink(){
 
 void Blink::initializePins(){
 
-    outputPin=new LinuxGPIO(4);//gpio number
+    outputPin=new RaspberryGPIO(4);//gpio number
     
     outputPin->SetDirection(true);
     

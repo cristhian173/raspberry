@@ -22,7 +22,7 @@ Pir::~Pir(){
 }
 
 void Pir::InitializePins(int gpio_no){
-     this->inputPin=new LinuxGPIO(gpio_no);
+     this->inputPin=new RaspberryGPIO(gpio_no);
      this->inputPin->SetDirection(false);
 }
 

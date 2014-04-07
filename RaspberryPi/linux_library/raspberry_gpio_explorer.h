@@ -8,19 +8,19 @@
 
 #include "linux_file.h"
 
-class LinuxGPIOExporter
+class RaspberryGPIOExporter
 {
 protected:
 	int m_Number;
 
 public:
-	LinuxGPIOExporter(int number)
+	RaspberryGPIOExporter(int number)
 		: m_Number(number)
 	{
 		LinuxFile("/sys/class/gpio/export", O_WRONLY).Write(number);
 	}
 
-	~LinuxGPIOExporter()
+	~RaspberryGPIOExporter()
 	{
 		LinuxFile("/sys/class/gpio/unexport",
 			O_WRONLY).Write(m_Number);

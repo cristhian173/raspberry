@@ -19,6 +19,13 @@
 		0C270F7118F1A598006FFE02 /* gps.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F7018F1A598006FFE02 /* gps.c */; };
 		0C270F7618F1A90C006FFE02 /* pir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F7418F1A90C006FFE02 /* pir.cpp */; };
 		0C270F7918F1AAEC006FFE02 /* ultrasonic_sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C270F7718F1AAEC006FFE02 /* ultrasonic_sound.cpp */; };
+		0CF40BA618F2FA6300F7C080 /* accelerometer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF40BA418F2FA6300F7C080 /* accelerometer.cpp */; };
+		0CF40BA918F2FA7600F7C080 /* gyroscope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF40BA718F2FA7600F7C080 /* gyroscope.cpp */; };
+		0CF40BAC18F2FA9500F7C080 /* gprs_gps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF40BAA18F2FA9500F7C080 /* gprs_gps.cpp */; };
+		0CF40BAF18F2FAA900F7C080 /* humidity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF40BAD18F2FAA900F7C080 /* humidity.cpp */; };
+		0CF40BB218F2FABC00F7C080 /* nrf_transceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF40BB018F2FABC00F7C080 /* nrf_transceiver.cpp */; };
+		0CF40BB518F2FACF00F7C080 /* stepper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF40BB318F2FACF00F7C080 /* stepper.cpp */; };
+		0CF40BB818F2FADE00F7C080 /* pwm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF40BB618F2FADE00F7C080 /* pwm.cpp */; };
 		0CF4356818EE7F45004022F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4356718EE7F45004022F0 /* main.cpp */; };
 		0CF4356A18EE7F45004022F0 /* RaspberryPi.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CF4356918EE7F45004022F0 /* RaspberryPi.1 */; };
 		0CF4357C18EE9CC5004022F0 /* blink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4357A18EE9CC5004022F0 /* blink.cpp */; };
@@ -55,12 +62,26 @@
 		0C270F7518F1A90C006FFE02 /* pir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pir.h; sourceTree = "<group>"; };
 		0C270F7718F1AAEC006FFE02 /* ultrasonic_sound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ultrasonic_sound.cpp; sourceTree = "<group>"; };
 		0C270F7818F1AAEC006FFE02 /* ultrasonic_sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ultrasonic_sound.h; sourceTree = "<group>"; };
+		0CF40BA418F2FA6300F7C080 /* accelerometer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = accelerometer.cpp; sourceTree = "<group>"; };
+		0CF40BA518F2FA6300F7C080 /* accelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accelerometer.h; sourceTree = "<group>"; };
+		0CF40BA718F2FA7600F7C080 /* gyroscope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gyroscope.cpp; sourceTree = "<group>"; };
+		0CF40BA818F2FA7600F7C080 /* gyroscope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gyroscope.h; sourceTree = "<group>"; };
+		0CF40BAA18F2FA9500F7C080 /* gprs_gps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gprs_gps.cpp; sourceTree = "<group>"; };
+		0CF40BAB18F2FA9500F7C080 /* gprs_gps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gprs_gps.h; sourceTree = "<group>"; };
+		0CF40BAD18F2FAA900F7C080 /* humidity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = humidity.cpp; sourceTree = "<group>"; };
+		0CF40BAE18F2FAA900F7C080 /* humidity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = humidity.h; sourceTree = "<group>"; };
+		0CF40BB018F2FABC00F7C080 /* nrf_transceiver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nrf_transceiver.cpp; sourceTree = "<group>"; };
+		0CF40BB118F2FABC00F7C080 /* nrf_transceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nrf_transceiver.h; sourceTree = "<group>"; };
+		0CF40BB318F2FACF00F7C080 /* stepper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stepper.cpp; sourceTree = "<group>"; };
+		0CF40BB418F2FACF00F7C080 /* stepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stepper.h; sourceTree = "<group>"; };
+		0CF40BB618F2FADE00F7C080 /* pwm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pwm.cpp; sourceTree = "<group>"; };
+		0CF40BB718F2FADE00F7C080 /* pwm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwm.h; sourceTree = "<group>"; };
 		0CF4356418EE7F45004022F0 /* RaspberryPi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RaspberryPi; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF4356718EE7F45004022F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0CF4356918EE7F45004022F0 /* RaspberryPi.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RaspberryPi.1; sourceTree = "<group>"; };
 		0CF4357118EE7F63004022F0 /* linux_file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linux_file.h; sourceTree = "<group>"; };
-		0CF4357218EE7F63004022F0 /* linux_gpio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linux_gpio.h; sourceTree = "<group>"; };
-		0CF4357318EE7F63004022F0 /* linux_gpio_explorer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linux_gpio_explorer.h; sourceTree = "<group>"; };
+		0CF4357218EE7F63004022F0 /* raspberry_gpio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = raspberry_gpio.h; sourceTree = "<group>"; };
+		0CF4357318EE7F63004022F0 /* raspberry_gpio_explorer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = raspberry_gpio_explorer.h; sourceTree = "<group>"; };
 		0CF4357418EE7F63004022F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0CF4357518EE7F63004022F0 /* ultrasonic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ultrasonic.cpp; sourceTree = "<group>"; };
 		0CF4357618EE7F63004022F0 /* ultrasonic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ultrasonic.h; sourceTree = "<group>"; };
@@ -120,19 +141,19 @@
 			children = (
 				0C270F5C18F1A331006FFE02 /* gsm_gps */,
 				0CF4357718EE7F6D004022F0 /* WiringPi */,
-				0CF4357018EE7F63004022F0 /* linux_library */,
+				0CF4357018EE7F63004022F0 /* mycode */,
 				0CF4356718EE7F45004022F0 /* main.cpp */,
 				0CF4356918EE7F45004022F0 /* RaspberryPi.1 */,
 			);
 			path = RaspberryPi;
 			sourceTree = "<group>";
 		};
-		0CF4357018EE7F63004022F0 /* linux_library */ = {
+		0CF4357018EE7F63004022F0 /* mycode */ = {
 			isa = PBXGroup;
 			children = (
 				0CF4357118EE7F63004022F0 /* linux_file.h */,
-				0CF4357218EE7F63004022F0 /* linux_gpio.h */,
-				0CF4357318EE7F63004022F0 /* linux_gpio_explorer.h */,
+				0CF4357218EE7F63004022F0 /* raspberry_gpio.h */,
+				0CF4357318EE7F63004022F0 /* raspberry_gpio_explorer.h */,
 				0CF4357418EE7F63004022F0 /* main.cpp */,
 				0CF4357518EE7F63004022F0 /* ultrasonic.cpp */,
 				0CF4357618EE7F63004022F0 /* ultrasonic.h */,
@@ -142,7 +163,22 @@
 				0C270F7518F1A90C006FFE02 /* pir.h */,
 				0C270F7718F1AAEC006FFE02 /* ultrasonic_sound.cpp */,
 				0C270F7818F1AAEC006FFE02 /* ultrasonic_sound.h */,
+				0CF40BA418F2FA6300F7C080 /* accelerometer.cpp */,
+				0CF40BA518F2FA6300F7C080 /* accelerometer.h */,
+				0CF40BA718F2FA7600F7C080 /* gyroscope.cpp */,
+				0CF40BA818F2FA7600F7C080 /* gyroscope.h */,
+				0CF40BAA18F2FA9500F7C080 /* gprs_gps.cpp */,
+				0CF40BAB18F2FA9500F7C080 /* gprs_gps.h */,
+				0CF40BAD18F2FAA900F7C080 /* humidity.cpp */,
+				0CF40BAE18F2FAA900F7C080 /* humidity.h */,
+				0CF40BB018F2FABC00F7C080 /* nrf_transceiver.cpp */,
+				0CF40BB118F2FABC00F7C080 /* nrf_transceiver.h */,
+				0CF40BB318F2FACF00F7C080 /* stepper.cpp */,
+				0CF40BB418F2FACF00F7C080 /* stepper.h */,
+				0CF40BB618F2FADE00F7C080 /* pwm.cpp */,
+				0CF40BB718F2FADE00F7C080 /* pwm.h */,
 			);
+			name = mycode;
 			path = linux_library;
 			sourceTree = "<group>";
 		};
@@ -207,10 +243,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C270F7118F1A598006FFE02 /* gps.c in Sources */,
+				0CF40BA618F2FA6300F7C080 /* accelerometer.cpp in Sources */,
 				0C270F7918F1AAEC006FFE02 /* ultrasonic_sound.cpp in Sources */,
+				0CF40BAC18F2FA9500F7C080 /* gprs_gps.cpp in Sources */,
+				0CF40BB218F2FABC00F7C080 /* nrf_transceiver.cpp in Sources */,
+				0CF40BA918F2FA7600F7C080 /* gyroscope.cpp in Sources */,
 				0C270F6F18F1A56C006FFE02 /* http.c in Sources */,
 				0C270F6B18F1A510006FFE02 /* tcp.c in Sources */,
 				0C270F7618F1A90C006FFE02 /* pir.cpp in Sources */,
+				0CF40BB818F2FADE00F7C080 /* pwm.cpp in Sources */,
 				0C270F6118F1A359006FFE02 /* arduPi.cpp in Sources */,
 				0C270F6718F1A413006FFE02 /* sendsms.c in Sources */,
 				0C270F6D18F1A51D006FFE02 /* udp.c in Sources */,
@@ -221,7 +262,9 @@
 				0C270F6518F1A3EA006FFE02 /* receivecall.c in Sources */,
 				0C270F6918F1A43D006FFE02 /* receivesms.c in Sources */,
 				0CF4357E18EEA56A004022F0 /* ultrasonic.cpp in Sources */,
+				0CF40BAF18F2FAA900F7C080 /* humidity.cpp in Sources */,
 				0C270F6318F1A3AD006FFE02 /* voicecall.c in Sources */,
+				0CF40BB518F2FACF00F7C080 /* stepper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

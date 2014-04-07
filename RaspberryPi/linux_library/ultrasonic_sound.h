@@ -11,19 +11,20 @@
 
 #include <iostream>
 
-#include "linux_gpio.h"
+#include "raspberry_gpio.h"
 #include <sys/time.h>
 #include <time.h>
 
 class Ultrasound{
     
     
-    LinuxGPIO *triggerPin;
-    LinuxGPIO *echoPin;
+    RaspberryGPIO *triggerPin;
+    RaspberryGPIO *echoPin;
 
     void trigger();
-    void checkEndofSonicBurst();
+    bool checkEndofSonicBurst();
     void initializePins(int trig_gpio,int echo_gpio);
+    bool checkForEcho();
     
 public:
     Ultrasound(int trig_gpio,int echo_gpio);
